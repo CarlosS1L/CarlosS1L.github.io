@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A minha aprsentação" />
-    <meta name="author" content="Carlos Jacinto" />
-    <!-- Favicon-->
-    <link rel="icon" alt="Icon para a página" type="image/png" href="assets/favicon/favicon.png">
-    <!-- BootStrap CSS-->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- Icons -->
-    <link rel="stylesheet" href="awesome/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Quem sou eu?</title>
-  </head>
 
-<body>  
-<h1>Bem Vindos ... </h1>
-  
-  
-          <!--https://www.sololearn.com/Certificate/1059-23512985/jpg-->
-  
-  
-  
-  
-    <!-- BootStrap JS-->
-    <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"> </script>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A minha aprsentação" />
+  <meta name="author" content="Carlos Jacinto" />
+  <!-- Favicon-->
+  <link rel="icon" alt="Icon para a página" type="image/png" href="assets/favicon.png">
+  <!-- BootStrap CSS-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="awesome/css/all.css">
+  <!-- my CSS -->
+  <link rel="stylesheet" href="assets/mycss.css">
+  <title>Quem sou eu?</title>
+</head>
+
+<body>
+  <div class="container-flex main">
+    <div class="padding"></div>
+    <nav class="navbar navbar-expand-lg">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portfólio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Certificados</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+      </ul>
+      <ul class="nav">
+        <a class="nav-link pe-0" href="#"><i class="fab fa-facebook-square"></i></a>
+        <a class="nav-link ps-1" href="#"><i class="fab fa-linkedin"></i></a>
+      </ul>
+    </nav>
+    <div class="container-flex padding ">
+
+      <img src="" alt="">
+
+
+
+    </div>
+    <footer id="contatos" class="d-flex flex-column flex-wrap py-3 my-4 border-top px-3">
+      <p>+351 (96) 6695894</p>
+      <a href="mailto:carlosdanielsj.09@live.com.pt">carlosdanielsj.09@live.com.pt</a>
+      <span id="ano" class="text-muted"></span>
+      <script>
+        document.getElementById("ano").innerHTML = " © " + new Date().getFullYear() + " Company, Inc";
+      </script>
+    </footer>
+  </div>
+  <!-- BootStrap JS-->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"> </script>
 </body>
+<!--https://www.sololearn.com/Certificate/1059-23512985/jpg-->
+
 </html>
