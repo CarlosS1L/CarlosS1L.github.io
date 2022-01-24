@@ -1,8 +1,11 @@
-.padding{
+.padding {
     width: 100%;
     min-height: 100px;
     background-color: blueviolet;
 }
-.main{
+.main {
     min-width: 240px;
+}
+a {
+    text-decoration: none;
 }
